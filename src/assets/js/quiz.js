@@ -1,0 +1,52 @@
+const quizData = [
+    {
+        question: "O que causa 40% dos alagamentos?",
+        options: ["Chuva forte", "Bueiros entupidos", "Falta de saneamento"],
+        answer: 1
+    },
+    {
+        question: "Qual tecnologia é usada na solução?",
+        options: ["IA + IoT", "Blockchain", "GPS"],
+        answer: 0
+    },
+    {
+        question: "Qual o objetivo em 2 anos?",
+        options: ["Reduzir 20%", "Reduzir 70%", "Eliminar todos"],
+        answer: 1
+    },
+    {
+        question: "Qual rede é usada para comunicação?",
+        options: ["Wi-Fi", "4G", "LoRaWAN"],
+        answer: 2
+    },
+    {
+        question: "Quem é beneficiado?",
+        options: ["Empresas privadas", "Gestores públicos", "Turistas"],
+        answer: 1
+    },
+    {
+        question: "O sistema envia alertas via?",
+        options: ["E-mail", "SMS", "Rádio"],
+        answer: 1
+    },
+    {
+        question: "Há integração com qual sistema?",
+        options: ["Bombeiros", "Defesa Civil", "Polícia Militar"],
+        answer: 1
+    },
+    {
+        question: "O app mostra bueiros em tempo?",
+        options: ["Real", "Simulado", "Estimado"],
+        answer: 0
+    },
+    {
+        question: "Quanto pode economizar?",
+        options: ["R$ 500 mil", "R$ 1,2 bi", "R$ 10 bi"],
+        answer: 1
+    },
+    { 
+        question: "Qual vantagem exclusiva?", 
+        options: ["Robôs de limpeza", "Mais impostos", "Câmeras ao vivo"], 
+        answer: 0 
+    }
+];
