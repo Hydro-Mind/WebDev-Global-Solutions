@@ -195,3 +195,29 @@ footer p {
 .contato-form button:hover {
     background-color: #023e8a;
 }
+
+@media (max-width: 768px) {
+    .section-contato {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contato-form {
+        margin-top: 20px;
+    }
+}
+
+.quiz-button {
+    background-color: #0077cc;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.quiz-button:hover {
+    background-color: #005fa3;
+}
