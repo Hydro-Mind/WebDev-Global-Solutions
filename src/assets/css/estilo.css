@@ -1,0 +1,15 @@
+:root {
+    --primary: #2A5CAA;
+    --secondary: #00C897;
+    --dark: #1A1A1A;
+    --light: #F5F5F5;
+}
+
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--dark);
+}
