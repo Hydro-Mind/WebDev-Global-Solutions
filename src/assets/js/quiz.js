@@ -50,3 +50,20 @@ const quizData = [
         answer: 0 
     }
 ];
+
+const quizContainer = document.getElementById("quiz-container");
+const submitQuizBtn = document.getElementById("submit-quiz");
+const resultDiv = document.getElementById("quiz-result");
+
+
+quizData.forEach((q, i) => {
+    const div = document.createElement("div");
+    div.classList.add("question-block");
+    div.innerHTML = `
+        <p><strong>${i + 1}. ${q.question}</strong></p>
+        ${q.options.map((opt, j) => `
+            <label><input type="radio" name="q${i}" value="${j}"> ${opt}</label><br>
+        `).join('')}
+    `;
+    quizContainer.appendChild(div);
+});
