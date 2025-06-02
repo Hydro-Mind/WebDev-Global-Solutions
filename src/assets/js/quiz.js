@@ -76,3 +76,15 @@ submitQuizBtn.addEventListener("click", () => {
     });
     resultDiv.textContent = `🎉 Você acertou ${score} de ${quizData.length} perguntas.`;
 });
+
+document.getElementById("blue").addEventListener("click", () => {
+    document.body.style.backgroundColor = "#e0f0ff";
+});
+
+document.getElementById("green").addEventListener("click", () => {
+    document.body.style.backgroundColor = "#e6ffe6";
+});
+
+document.getElementById("white").addEventListener("click", () => {
+    document.body.style.backgroundColor = "white";
+});
