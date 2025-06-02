@@ -49,3 +49,21 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+#quiz-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.theme-buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.theme-buttons span {
+    margin-right: 10px;
+    font-weight: bold;
+}
