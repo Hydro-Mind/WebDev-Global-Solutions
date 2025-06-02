@@ -67,3 +67,12 @@ quizData.forEach((q, i) => {
     `;
     quizContainer.appendChild(div);
 });
+
+submitQuizBtn.addEventListener("click", () => {
+    let score = 0;
+    quizData.forEach((q, i) => {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        if (selected && parseInt(selected.value) === q.answer) score++;
+    });
+    resultDiv.textContent = `🎉 Você acertou ${score} de ${quizData.length} perguntas.`;
+});
