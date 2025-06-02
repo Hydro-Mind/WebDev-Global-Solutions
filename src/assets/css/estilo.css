@@ -91,3 +91,31 @@ body {
 .contato-form h3 {
     font-size: 1.5rem;
 }
+
+.burger { display: none; }
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    
+
+    .section {
+        flex-direction: column;
+        padding: 2rem 5%;
+    }
+
+    .section img {
+        width: 100%;
+        max-width: none;
+        margin: 20px 0 0 0;
+    }
+    
+    .section .section-texto {
+        text-align: center;
+    }
+}
